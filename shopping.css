@@ -25,10 +25,16 @@ header{
     z-index: 1000;}
 
 .h_button{
-background-color:azure;
+background-color:#9DD6F2;
+display: flex;
+flex-wrap: nowrap;
 border-radius: 30px;
 padding:15px 15px 15px 15px;
-justify-content: space-between;
+
+align-items: center;
+justify-content: center;
+min-width: max-content;
+white-space: nowrap;
 }
 
 .logo{
@@ -48,6 +54,7 @@ nav a {
   text-decoration: none;
   color: black;
   font-weight: 500;
+  align-items:center;
 }
 .search-box{
     display: flex;
