@@ -55,21 +55,6 @@ nav a {
   width: 200px;
   justify-content: space-around;
 }
-/* .search-box button {
-  width: 30px;
-  height: 30px;
-  border-radius: 50%;
-  border: none;
-  background: #fbfbfa00;
-  cursor: pointer;
-  justify-content: space-around;
-} */
-
-/* .search-box button img {
-  width: 20px;
-  height: 20px;
-  
-} */
 
 .logo{
   font-weight: bold;
@@ -88,7 +73,7 @@ img{
   display: flex;
   align-items: center;
   justify-content: space-between;
-  /* padding: 50px 80px; */
+  padding-top: 50px ;
   background-color: #77B5FC;
 
 }
