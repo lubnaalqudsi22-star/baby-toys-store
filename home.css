@@ -241,7 +241,7 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background: linear-gradient(to right, #e91e63 33.33%, #0288d1 33.33%, #0288d1 66.66%, #4caf50 66.66%);
+        background: linear-gradient(to right, #FF999C 33.33%, #A0D8F2 33.33%, #A0D8F2 66.66%, #A2E7AC 66.66%);
     color: white;
     padding: 15px;
     border-radius: 50px; 
