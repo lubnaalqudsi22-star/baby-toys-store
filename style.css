@@ -1,0 +1,123 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+ 
+}
+
+body {
+  
+  background-image: url('image/Artboard\ 1.png'); 
+  background-repeat: no-repeat;
+  background-size: cover; 
+  background-attachment: fixed; 
+  min-height: 100vh;
+}
+
+
+/* NAVBAR */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 10px;
+}
+
+.logo{
+  font-weight: bold;
+  padding: 5px 5px;
+  height: 200px;
+  width: 280px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+
+/* HERO */
+.hero {
+  display:flex;
+  align-items:flex-start;
+  justify-content: space-between;
+  padding-top: 10px;
+  padding-left: 120px;
+  
+  /* flex-direction: row-reverse; */
+}
+
+/* TEXT */
+.hero-text {
+  max-width: 500px;
+  
+}
+
+.hero-text h1 {
+  font-size: 60px;
+  color: #092833;
+  font-family:cursive;
+}
+
+.hero-text h2 {
+  margin: 10px 0;
+  font-size: 30px;
+  font-family: cursive;
+  letter-spacing: 2px;
+}
+
+.hero-text p {
+  margin: 20px 0;
+  font-size: 30px;
+  color: #0d3848;
+  line-height: 1.6;
+}
+.login-form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 100px;
+}
+legend{
+  font-size: 35px;
+  color: #0d3848;
+  line-height: 1.6;
+  font-family: cursive;
+  justify-content: center;
+}
+label {
+  font-size: 25px;
+  color: #0d3848;
+  line-height: 1.6;
+  font-family: cursive;
+  
+}
+input{
+  padding: 15px;
+  border-radius: 25px;
+  border: none;
+  background: azure;
+  color: black;
+  height: 35px;
+  width: 210px;
+  margin-right: 50px;
+  
+}
+fieldset{
+  border: 3px solid black;
+  padding: 25px;
+  /* margin-right: 100px; */
+  border-radius: 20px;
+}
+button{
+  padding: 10px 20px;
+  font-size: 25px;
+  background:#0d3848;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+}
