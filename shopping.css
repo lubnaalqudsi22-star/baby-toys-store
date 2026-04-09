@@ -28,11 +28,16 @@ padding:15px 15px 15px 15px;
 justify-content: space-between;
 }
 
-.logo {
+.logo{
   font-weight: bold;
-  border: 2px solid black;
-  padding: 5px 10px;
-  border-radius: 8px;
+  padding: 2px 2px;
+  height: 70px;
+  width: 80px;
+}
+img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
 }
 
 nav a {
