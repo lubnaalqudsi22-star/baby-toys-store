@@ -9,7 +9,7 @@
 body {
   
   background-image: url('image/Artboard\ 2.png'); 
-  background-repeat: no-repeat;
+  background-repeat: repeat-y;
   background-size: cover; 
   background-attachment: fixed; 
   min-height: 100vh;
